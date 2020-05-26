@@ -3,6 +3,7 @@ import shutil
 import time
 import pytest
 
+#note that default argument should always be at last or after postional arguments
 #In case, if we have a fear of any error we can define a default value for our parameter.
 #In case if the user does not provides any value to the function, there will be a default value whoch will
 #be assigned to the parameter
